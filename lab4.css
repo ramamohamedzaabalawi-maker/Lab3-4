@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f5f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    width: 780px;
+    max-width: 90%;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px lightgray;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.input-area,
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#taskInput {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+#addButton {
+    background: #2878df;
+    color: white;
+    padding: 12px 20px;
+}
+
+.tip-filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.tip,
+.items-left {
+    color: gray;
+    font-size: 12px;
+}
+
+.tip p {
+    margin: 0;
+}
+
+.filters button {
+    background: white;
+}
+
+.filters button.active {
+    background: #dce9ff;
+    color: #2878df;
+}
+
+.task-list {
+    margin-top: 10px;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.todo-text {
+    flex: 1;
+    margin: 0;
+}
+
+.task input[type="text"] {
+    flex: 1;
+    padding: 6px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.delete-btn {
+    background: transparent;
+}
+
+.items-left {
+    margin-top: 15px;
+}
+
+.items-left p {
+    margin: 0;
+}
+
+.actions {
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.actions button {
+    background: white;
+    border: 1px solid #ccc;
+}
