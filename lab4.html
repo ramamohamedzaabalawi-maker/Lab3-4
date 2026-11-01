@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container" id="container">
+
+        <div class="header" id="header">
+            <h2>Todo App</h2>
+        </div>
+
+        <div class="input-area" id="inputArea">
+            <input type="text" id="taskInput" placeholder="What needs doing?">
+            <button id="addButton">Add</button>
+        </div>
+
+        <div class="tip-filters">
+            <div class="tip" id="tip">
+                <p>Tip: double-click a todo to edit. Press Enter to save.</p>
+            </div>
+
+            <div class="filters" id="filters">
+                <button id="allButton">All</button>
+                <button id="activeButton">Active</button>
+                <button id="completedButton">Completed</button>
+            </div>
+        </div>
+
+        <div class="task-list" id="taskList"></div>
+
+        <div class="items-left" id="itemsLeft"></div>
+
+        <div class="actions" id="actions">
+            <button id="clearCompleted">Clear completed</button>
+            <button id="clearAll">Clear all</button>
+        </div>
+
+    </div>
+
+    <script src="lab4.js"></script>
+
+</body>
+</html>
